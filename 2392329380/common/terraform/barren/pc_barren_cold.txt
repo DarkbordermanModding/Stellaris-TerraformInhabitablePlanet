@@ -1,0 +1,137 @@
+# Hot climate
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_desert"
+
+	energy = 15000
+	duration = 3600
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_arid"
+
+	energy = 15000
+	duration = 3600
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_savannah"
+
+	energy = 15000
+	duration = 3600
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}
+
+# Temperate climate
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_continental"
+
+	energy = 15000
+	duration = 3600
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_tropical"
+
+	energy = 15000
+	duration = 3600
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_ocean"
+
+	energy = 15000
+	duration = 3600
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}
+
+# Cold climate
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_arctic"
+
+	energy = 15000
+	duration = 3600
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_tundra"
+
+	energy = 15000
+	duration = 3600
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_alpine"
+
+	energy = 15000
+	duration = 3600
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}
+
+# Gaia
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_gaia"
+
+	energy = 20000
+	duration = 5400
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}

@@ -1,0 +1,18 @@
+terraform_link = {
+	from = "pc_shrouded"
+	to = "pc_barren"
+
+	energy = 5000
+	duration = 900
+
+	potential = {
+		has_ascension_perk = "ap_world_shaper"
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+
+    effect = {
+		from = {
+			add_modifier = {modifier = "strong_magnetic_field"}
+		}
+	}
+}
