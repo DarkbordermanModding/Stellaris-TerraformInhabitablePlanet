@@ -3,9 +3,28 @@
  "appid" "${APP_ID}"
  "publishedfileid" "${PUBLISHFIELD_ID}"
  "contentfolder" "${PWD}/noconstellation"
- "previewfile" "${PWD}/preview.png"
+ "previewfile" "${PWD}/preview.jpg"
  "visibility" "2"
  "title" "Remove constellation"
- "description" "Remove the constellation"
+ "description"
+    [h1] Terraform inhabitable planet [/h1]
+    新增地貌改造選項給無法居住的星球
+    Add terraform decisions for inhabitable planets.
+
+    [h1] More details [/h1]
+    新增地貌改造選項給無法居住的星球
+    在地貌改造完後星球會根據原星球及改造星球類型獲得相對應的修正
+    如果我忘記加上要改造的星球可以在下方留言
+    Add more terraform decisions to terraform inhabitable planets.
+    Upon finishing terraform the planet will add an modifier according to original & terraformed planet type.
+    If I forget which planet should be terraformed you can leave a message below.
+
+    [h1] Compatiable Version [/h1]
+    2.8.*
+
+    [h1] Language Support [/h1]
+    全部, 因無文字需翻譯
+    All, cause no texts.
+ "
  "changenote" "Initial Release"
 }
