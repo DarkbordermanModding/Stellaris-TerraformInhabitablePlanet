@@ -2,17 +2,17 @@ terraform_link = {
 	from = "pc_ice_asteroid"
 	to = "pc_barren_cold"
 
-	energy = 5000
-	duration = 900
+	resources = {
+		category = terraforming
 
-	potential = {
-		has_ascension_perk = "ap_world_shaper"
-		NOT = {from = {has_modifier = terraforming_candidate}}
+		cost = {
+			energy = 5000
+		}
 	}
 
-    effect = {
-		from = {
-			add_modifier = {modifier = "asteroid_impacts"}
-		}
+	duration = 900
+
+	condition = {
+		has_technology = "tech_terrestrial_sculpting"
 	}
 }
