@@ -2,11 +2,11 @@
 {
  "appid" "${APP_ID}"
  "publishedfileid" "${PUBLISHFIELD_ID}"
- "contentfolder" "${PWD}/noconstellation"
+ "contentfolder" "${PWD}/"
  "previewfile" "${PWD}/preview.jpg"
  "visibility" "2"
- "title" "Remove constellation"
- "description"
+ "title" "Terraform inhabitable planet"
+ "description" "
     [h1] Terraform inhabitable planet [/h1]
     新增地貌改造選項給無法居住的星球
     Add terraform decisions for inhabitable planets.
