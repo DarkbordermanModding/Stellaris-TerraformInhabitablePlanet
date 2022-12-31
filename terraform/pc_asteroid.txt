@@ -1,5 +1,3 @@
-@basicTypeCost = 5000
-
 terraform_link = {
 	from = "pc_asteroid"
 	to = "pc_barren"
@@ -8,13 +6,13 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = @basicTypeCost
+			energy = 5000
 		}
 	}
 
 	duration = 900
 
-	potential = {
+	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
 
