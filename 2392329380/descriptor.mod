@@ -1,8 +1,8 @@
-version="2.8.*"
+version="0.0.1"
 tags={
 	"Utilities"
 	"Overhaul"
 }
 name="Terraform inhabitable planet"
-supported_version="2.8.1"
-path="/home/divik/.local/share/Paradox Interactive/Stellaris/mod/0"
+supported_version="3.6.1"
+remote_file_id="2392329380"
