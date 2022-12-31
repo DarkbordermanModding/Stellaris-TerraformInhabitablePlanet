@@ -2,7 +2,7 @@
 {
  "appid" "${APP_ID}"
  "publishedfileid" "${PUBLISHFIELD_ID}"
- "contentfolder" "${PWD}/"
+ "contentfolder" "${PWD}"
  "previewfile" "${PWD}/preview.jpg"
  "visibility" "2"
  "title" "Terraform inhabitable planet"
@@ -20,7 +20,7 @@
     If I forget which planet should be terraformed you can leave a message below.
 
     [h1] Compatiable Version [/h1]
-    3.6.1
+    3.6.*
 
     [h1] Language Support [/h1]
     全部, 因無文字需翻譯

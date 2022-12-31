@@ -15,10 +15,4 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-
-    effect = {
-		from = {
-			add_modifier = {modifier = "asteroid_impacts"}
-		}
-	}
 }
