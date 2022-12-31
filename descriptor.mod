@@ -4,5 +4,5 @@ tags={
 	"Overhaul"
 }
 name="Terraform inhabitable planet"
-supported_version="3.6.1"
+supported_version="3.6.*"
 remote_file_id="2392329380"
