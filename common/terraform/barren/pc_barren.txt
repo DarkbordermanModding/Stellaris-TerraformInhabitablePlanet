@@ -14,9 +14,11 @@ terraform_link = {
 
 	duration = 3600
 
+	potential = {
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
 	condition = {
 		has_technology = "tech_climate_restoration"
-		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
 
@@ -34,9 +36,11 @@ terraform_link = {
 
 	duration = 3600
 
+	potential = {
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
 	condition = {
 		has_technology = "tech_climate_restoration"
-		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
 
@@ -54,9 +58,11 @@ terraform_link = {
 
 	duration = 3600
 
+	potential = {
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
 	condition = {
 		has_technology = "tech_climate_restoration"
-		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
 
@@ -76,9 +82,11 @@ terraform_link = {
 
 	duration = 5400
 
+	potential = {
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
 	condition = {
 		has_technology = "tech_climate_restoration"
-		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
 
@@ -96,9 +104,12 @@ terraform_link = {
 
 	duration = 5400
 
+
+	potential = {
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
 	condition = {
 		has_technology = "tech_climate_restoration"
-		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
 
@@ -116,9 +127,11 @@ terraform_link = {
 
 	duration = 5400
 
+	potential = {
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
 	condition = {
 		has_technology = "tech_climate_restoration"
-		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
 
@@ -138,9 +151,11 @@ terraform_link = {
 
 	duration = 7200
 
+	potential = {
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
 	condition = {
 		has_technology = "ap_world_shaper"
-		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
 
@@ -158,9 +173,11 @@ terraform_link = {
 
 	duration = 7200
 
+	potential = {
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
 	condition = {
 		has_technology = "ap_world_shaper"
-		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
 
@@ -178,8 +195,10 @@ terraform_link = {
 
 	duration = 7200
 
+	potential = {
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
 	condition = {
 		has_technology = "ap_world_shaper"
-		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
