@@ -127,33 +127,3 @@ terraform_link = {
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
-
-# Gaia
-
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_gaia"
-
-	energy = 20000
-	duration = 5400
-
-	condition = {
-		has_ascension_perk = "tech_climate_restoration"
-		NOT = {from = {has_modifier = terraforming_candidate}}
-	}
-}
-
-# Machine
-
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_machine"
-
-	energy = 20000
-	duration = 5400
-
-	condition = {
-		has_ascension_perk = "tech_climate_restoration"
-		NOT = {from = {has_modifier = terraforming_candidate}}
-	}
-}
