@@ -4,10 +4,17 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_desert"
 
-	energy = 15000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 15000
+		}
+	}
+
 	duration = 3600
 
-	potential = {
+	condition = {
 		has_ascension_perk = "ap_world_shaper"
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
@@ -17,10 +24,17 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_arid"
 
-	energy = 15000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 15000
+		}
+	}
+
 	duration = 3600
 
-	potential = {
+	condition = {
 		has_ascension_perk = "ap_world_shaper"
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
@@ -30,10 +44,17 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_savannah"
 
-	energy = 15000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 15000
+		}
+	}
+
 	duration = 3600
 
-	potential = {
+	condition = {
 		has_ascension_perk = "ap_world_shaper"
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
@@ -45,10 +66,17 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_continental"
 
-	energy = 15000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 15000
+		}
+	}
+
 	duration = 3600
 
-	potential = {
+	condition = {
 		has_ascension_perk = "ap_world_shaper"
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
@@ -58,10 +86,17 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_tropical"
 
-	energy = 15000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 15000
+		}
+	}
+
 	duration = 3600
 
-	potential = {
+	condition = {
 		has_ascension_perk = "ap_world_shaper"
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
@@ -71,10 +106,17 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_ocean"
 
-	energy = 15000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 15000
+		}
+	}
+
 	duration = 3600
 
-	potential = {
+	condition = {
 		has_ascension_perk = "ap_world_shaper"
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
@@ -86,10 +128,17 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_arctic"
 
-	energy = 15000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 15000
+		}
+	}
+
 	duration = 3600
 
-	potential = {
+	condition = {
 		has_ascension_perk = "ap_world_shaper"
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
@@ -99,10 +148,17 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_tundra"
 
-	energy = 15000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 15000
+		}
+	}
+
 	duration = 3600
 
-	potential = {
+	condition = {
 		has_ascension_perk = "ap_world_shaper"
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
@@ -112,10 +168,17 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_alpine"
 
-	energy = 15000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 15000
+		}
+	}
+
 	duration = 3600
 
-	potential = {
+	condition = {
 		has_ascension_perk = "ap_world_shaper"
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
@@ -127,10 +190,17 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_gaia"
 
-	energy = 20000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 20000
+		}
+	}
+
 	duration = 5400
 
-	potential = {
+	condition = {
 		has_ascension_perk = "ap_world_shaper"
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
