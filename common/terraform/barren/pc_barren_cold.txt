@@ -8,7 +8,7 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 15000
+			energy = 5000
 		}
 	}
 
@@ -28,7 +28,7 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 15000
+			energy = 5000
 		}
 	}
 
@@ -48,7 +48,7 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 15000
+			energy = 5000
 		}
 	}
 
@@ -70,7 +70,7 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 15000
+			energy = 5000
 		}
 	}
 
@@ -90,7 +90,7 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 15000
+			energy = 5000
 		}
 	}
 
@@ -110,7 +110,7 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 15000
+			energy = 5000
 		}
 	}
 
@@ -132,7 +132,7 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 15000
+			energy = 5000
 		}
 	}
 
@@ -152,7 +152,7 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 15000
+			energy = 5000
 		}
 	}
 
@@ -172,7 +172,7 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 15000
+			energy = 5000
 		}
 	}
 
