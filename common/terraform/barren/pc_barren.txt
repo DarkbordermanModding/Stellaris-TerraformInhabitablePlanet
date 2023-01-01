@@ -70,11 +70,11 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 5000
+			energy = 10000
 		}
 	}
 
-	duration = 3600
+	duration = 5400
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -90,11 +90,11 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 5000
+			energy = 10000
 		}
 	}
 
-	duration = 3600
+	duration = 5400
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -110,11 +110,11 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 5000
+			energy = 10000
 		}
 	}
 
-	duration = 3600
+	duration = 5400
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -132,11 +132,11 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 5000
+			energy = 15000
 		}
 	}
 
-	duration = 3600
+	duration = 7200
 
 	condition = {
 		has_technology = "ap_world_shaper"
@@ -152,11 +152,11 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 5000
+			energy = 15000
 		}
 	}
 
-	duration = 3600
+	duration = 7200
 
 	condition = {
 		has_technology = "ap_world_shaper"
@@ -172,11 +172,11 @@ terraform_link = {
 		category = terraforming
 
 		cost = {
-			energy = 5000
+			energy = 15000
 		}
 	}
 
-	duration = 3600
+	duration = 7200
 
 	condition = {
 		has_technology = "ap_world_shaper"
