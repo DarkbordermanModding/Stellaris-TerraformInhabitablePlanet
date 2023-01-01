@@ -4,7 +4,14 @@ terraform_link = {
 	from = "pc_barren_cold"
 	to = "pc_gaia"
 
-	energy = 20000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 20000
+		}
+	}
+
 	duration = 5400
 
 	condition = {
@@ -19,7 +26,14 @@ terraform_link = {
 	from = "pc_barren_cold"
 	to = "pc_machine"
 
-	energy = 20000
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 20000
+		}
+	}
+
 	duration = 5400
 
 	condition = {
