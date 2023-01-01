@@ -19,3 +19,25 @@ terraform_link = {
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 }
+
+# Machine
+
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_machine"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = 10000
+		}
+	}
+
+	duration = 7200
+
+	condition = {
+		has_ascension_perk = ap_machine_worlds
+		NOT = {from = {has_modifier = terraforming_candidate}}
+	}
+}
