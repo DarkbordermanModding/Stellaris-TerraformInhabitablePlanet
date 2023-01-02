@@ -4,7 +4,7 @@
  "publishedfileid" "${PUBLISHFIELD_ID}"
  "contentfolder" "${PWD}"
  "previewfile" "${PWD}/preview.jpg"
- "visibility" "2"
+ "visibility" "0"
  "title" "Terraform inhabitable planet"
  "description" "
     [h1] Terraform inhabitable planet [/h1]
