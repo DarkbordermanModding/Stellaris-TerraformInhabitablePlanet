@@ -1,0 +1,402 @@
+@gaiaCost = 7500
+@gaiaTime = 3600
+
+@highestCost = 12500
+@highestTime = 9000
+
+@machineCost = 10000
+@machineTime = 7200
+
+@hiveCost = 10000
+@hiveTime = 7200
+
+@lClusterCost = 1000
+
+terraform_link = {
+	from = "pc_desert"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @gaiaCost
+		}
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+terraform_link = {
+	from = "pc_arid"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @gaiaCost
+		}
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+terraform_link = {
+	from = "pc_savannah"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @gaiaCost
+		}
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+terraform_link = {
+	from = "pc_arctic"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @gaiaCost
+		}
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+terraform_link = {
+	from = "pc_tundra"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @gaiaCost
+		}
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+terraform_link = {
+	from = "pc_alpine"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @gaiaCost
+		}
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+terraform_link = {
+	from = "pc_continental"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @gaiaCost
+		}
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+terraform_link = {
+	from = "pc_tropical"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @gaiaCost
+		}
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+terraform_link = {
+	from = "pc_ocean"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @gaiaCost
+		}
+	}
+
+	duration = @gaiaTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = { #Ocean Worlds are Aquatic species' paradises
+			factor = 0
+			from = {
+				is_colony = yes
+				pop_percentage = {
+					percentage >= 0.5
+					limit = {
+						OR = {
+							has_trait = trait_aquatic
+							has_trait = trait_robot_aquatic
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @highestCost
+		}
+	}
+
+	duration = @highestTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+				from = { has_modifier = terraforming_candidate }
+			}
+		}
+	}
+
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @highestCost
+		}
+	}
+
+	duration = @highestTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+				from = { has_modifier = terraforming_candidate }
+			}
+		}
+	}
+
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+terraform_link = {
+	from = "pc_nuked"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @highestCost
+		}
+	}
+
+	duration = @highestTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_ascension_perk = "ap_world_shaper"
+			}
+		}
+	}
+
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
