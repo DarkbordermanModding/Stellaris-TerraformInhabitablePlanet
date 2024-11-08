@@ -155,7 +155,7 @@ terraform_link = {
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 	condition = {
-		has_technology = "ap_world_shaper"
+		has_technology = "tech_climate_restoration"
 	}
 }
 
@@ -177,7 +177,7 @@ terraform_link = {
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 	condition = {
-		has_technology = "ap_world_shaper"
+		has_technology = "tech_climate_restoration"
 	}
 }
 
@@ -199,6 +199,6 @@ terraform_link = {
 		NOT = {from = {has_modifier = terraforming_candidate}}
 	}
 	condition = {
-		has_technology = "ap_world_shaper"
+		has_technology = "tech_climate_restoration"
 	}
 }
