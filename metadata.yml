@@ -1,0 +1,9 @@
+workshop:
+  app_id: 281990
+  publishedfield_id: 0
+  title: "Gesealt Gaia World"
+  description: "Allow Gestalt consciousness to terraform planet to gaia world"
+  visibility: 2
+  preview_path: preview.png
+  content_folder: "./"
+  tags: [Gameplay]

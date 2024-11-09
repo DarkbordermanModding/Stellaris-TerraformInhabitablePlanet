@@ -3,6 +3,6 @@ tags={
 	"Utilities"
 	"Overhaul"
 }
-name="Terraform inhabitable planet"
-supported_version="3.6.*"
+name="Gesealt Gaia World"
+supported_version="3.14.*"
 remote_file_id="0"
